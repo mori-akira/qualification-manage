@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>資格管理</title>
+    <meta name="author" content="Moriaki Kogure">
+    <meta name="viewport" content="initial-scale=1">
+    <link rel="stylesheet" href="asset/datatables.css">
+    <link rel="stylesheet" href="asset/style.css">
+</head>
+
+<body>
+    <h1>所有資格一覧</h1>
+    <table class="list qualification-list">
+        <thead>
+            <tr>
+                <th></th>
+                <th>資格名</th>
+                <th>社内ランク</th>
+                <th>提供団体</th>
+                <th>取得日</th>
+                <th>期限日</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-target="id_ip">
+                <td>1</td>
+                <td>ITパスポート</td>
+                <td>D</td>
+                <td>IPA</td>
+                <td>2019-06-14</td>
+                <td>-</td>
+            </tr>
+            <tr data-target="id_fe">
+                <td>2</td>
+                <td>基本情報技術者試験</td>
+                <td>C</td>
+                <td>IPA</td>
+                <td>2019-11-20</td>
+                <td>-</td>
+            </tr>
+            <tr data-target="id_orabronze">
+                <td>3</td>
+                <td>ORACLE MASTER Bronze Oracle Database 12c</td>
+                <td>D</td>
+                <td>Oracle</td>
+                <td>2021-06-27</td>
+                <td>-</td>
+            </tr>
+            <tr data-target="id_ocjpsilver">
+                <td>4</td>
+                <td>Oracle Certified Java Programmer, Silver SE 8</td>
+                <td>D</td>
+                <td>Oracle</td>
+                <td>2019-11-12</td>
+                <td>-</td>
+            </tr>
+            <tr data-target="id_ocjpgold">
+                <td>5</td>
+                <td>Oracle Certified Java Programmer, Gold SE 8</td>
+                <td>C</td>
+                <td>Oracle</td>
+                <td>2019-12-23</td>
+                <td>-</td>
+            </tr>
+            <tr data-target="id_htmllv1">
+                <td>6</td>
+                <td>HTML5プロフェッショナル認定 レベル1</td>
+                <td>D</td>
+                <td>LPI</td>
+                <td>2021-10-16</td>
+                <td>2026-10-16</td>
+            </tr>
+            <tr data-target="id_htmllv2">
+                <td>7</td>
+                <td>HTML5プロフェッショナル認定 レベル2</td>
+                <td>B</td>
+                <td>LPI</td>
+                <td>2021-11-15</td>
+                <td>2026-11-15</td>
+            </tr>
+            <tr data-target="id_ossdbsilver">
+                <td>8</td>
+                <td>OSS-DB Silver</td>
+                <td>C</td>
+                <td>LPI</td>
+                <td>2023-07-15</td>
+                <td>2028-07-15</td>
+            </tr>
+            <tr data-target="id_py3basic">
+                <td>9</td>
+                <td>Python 3 エンジニア認定基礎試験</td>
+                <td>D</td>
+                <td>一般社団法人Pythonエンジニア育成推進協会</td>
+                <td>2022-03-26</td>
+                <td>-</td>
+            </tr>
+            <tr data-target="id_py3data">
+                <td>10</td>
+                <td>Python 3 エンジニア認定データ分析試験</td>
+                <td>D</td>
+                <td>一般社団法人Pythonエンジニア育成推進協会</td>
+                <td>2023-06-17</td>
+                <td>-</td>
+            </tr>
+            <tr data-target="id_gcpace">
+                <td>11</td>
+                <td>Google Certification Associate Cloud Engineer</td>
+                <td>C</td>
+                <td>Google</td>
+                <td>2023-02-13</td>
+                <td>2026-02-13</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h1>所有資格詳細</h1>
+    <h2 id="id_ip">ITパスポート</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>ITパスポート</span><br>
+        <span>略称</span>
+        <span>IP</span><br>
+        <span>社内ランク</span>
+        <span>D</span><br>
+        <span>提供団体</span>
+        <span>IPA</span><br>
+        <span>取得日</span>
+        <span>2019-06-14</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://www3.jitec.ipa.go.jp/JitesCbt/index.html" target="_blank">
+                https://www3.jitec.ipa.go.jp/JitesCbt/index.html
+            </a>
+        </span><br>
+        <span>合格証書</span>
+        <span><a href="info/ITパスポート/合格証書.pdf" target="_blank">合格証書.pdf</a></span><br>
+    </div>
+
+    <h2 id="id_fe">基本情報技術者試験</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>基本情報技術者試験</span><br>
+        <span>略称</span>
+        <span>FE</span><br>
+        <span>社内ランク</span>
+        <span>C</span><br>
+        <span>提供団体</span>
+        <span>IPA</span><br>
+        <span>取得日</span>
+        <span>2019-11-20</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://www.ipa.go.jp/shiken/kubun/fe.html" target="_blank">
+                https://www.ipa.go.jp/shiken/kubun/fe.html
+            </a>
+        </span><br>
+        <span>合格証書</span>
+        <span><a href="info/基本情報技術者試験/合格証書.pdf" target="_blank">合格証書.pdf</a></span><br>
+    </div>
+
+    <h2 id="id_orabronze">ORACLE MASTER Bronze Oracle Database 12c</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>ORACLE MASTER Bronze Oracle Database 12c</span><br>
+        <span>社内ランク</span>
+        <span>D</span><br>
+        <span>提供団体</span>
+        <span>Oracle</span><br>
+        <span>取得日</span>
+        <span>2021-06-27</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://education.oracle.com/ja/oracle-master-bronze-oracle-database-12c/trackp_284"
+                target="_blank">
+                https://education.oracle.com/ja/oracle-master-bronze-oracle-database-12c/trackp_284
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/ORACLE MASTER Bronze Oracle Database 12c/認定証.pdf" target="_blank">認定証.pdf</a></span><br>
+        <span>バッジ</span>
+        <span><a href="https://www.credly.com/badges/5887fc5a-5cbd-42ad-b956-5bdf6e8e3c94"
+                target="_blank">認定バッジ</a></span><br>
+    </div>
+
+    <h2 id="id_ocjpsilver">Oracle Certified Java Programmer, Silver SE 8</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>Oracle Certified Java Programmer, Silver SE 8</span><br>
+        <span>社内ランク</span>
+        <span>D</span><br>
+        <span>提供団体</span>
+        <span>Oracle</span><br>
+        <span>取得日</span>
+        <span>2019-11-12</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://education.oracle.com/ja/oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer/trackp_363"
+                target="_blank">
+                https://education.oracle.com/ja/oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer/trackp_363
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/Oracle Certified Java Programmer, Silver SE 8/認定書.pdf"
+                target="_blank">認定証.pdf</a></span><br>
+        <span>バッジ</span>
+        <span><a href="https://www.credly.com/badges/ea4f1dea-f323-4659-8356-f65a4c03461f"
+                target="_blank">認定バッジ</a></span><br>
+    </div>
+
+    <h2 id="id_ocjpgold">Oracle Certified Java Programmer, Gold SE 8</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>Oracle Certified Java Programmer, Gold SE 8</span><br>
+        <span>社内ランク</span>
+        <span>C</span><br>
+        <span>提供団体</span>
+        <span>Oracle</span><br>
+        <span>取得日</span>
+        <span>2019-12-23</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://education.oracle.com/ja/oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer/trackp_367"
+                target="_blank">
+                https://education.oracle.com/ja/oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer/trackp_367
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/Oracle Certified Java Programmer, Gold SE 8/認定書.pdf" target="_blank">認定証.pdf</a></span><br>
+        <span>バッジ</span>
+        <span><a href="https://www.credly.com/badges/f528e945-5a59-4b29-92a2-8712bf139b58"
+                target="_blank">認定バッジ</a></span><br>
+    </div>
+
+    <h2 id="id_htmllv1">HTML5プロフェッショナル認定 レベル1</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>HTML5プロフェッショナル認定 レベル1</span><br>
+        <span>略称</span>
+        <span>HTML5(CSS3) レベル1</span><br>
+        <span>社内ランク</span>
+        <span>D</span><br>
+        <span>提供団体</span>
+        <span>LPI</span><br>
+        <span>取得日</span>
+        <span>2021-10-16</span><br>
+        <span>期限日</span>
+        <span>2026-10-16</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://html5exam.jp/outline/lv1.html" target="_blank">
+                https://html5exam.jp/outline/lv1.html
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/HTML5プロフェッショナル認定 レベル1/認定証.pdf" target="_blank">認定証.pdf</a></span><br>
+        <span>認定証会</span>
+        <span><a href="https://ma.educo-j.or.jp/h/EID900026182/42k4tara25" target="_blank">認定証会</a></span><br>
+    </div>
+
+    <h2 id="id_htmllv2">HTML5プロフェッショナル認定 レベル2</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>HTML5プロフェッショナル認定 レベル2</span><br>
+        <span>略称</span>
+        <span>HTML5(CSS3) レベル2</span><br>
+        <span>社内ランク</span>
+        <span>B</span><br>
+        <span>提供団体</span>
+        <span>LPI</span><br>
+        <span>取得日</span>
+        <span>2021-11-15</span><br>
+        <span>期限日</span>
+        <span>2026-11-15</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://html5exam.jp/outline/lv2.html" target="_blank">
+                https://html5exam.jp/outline/lv2.html
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/HTML5プロフェッショナル認定 レベル2/認定証.pdf" target="_blank">認定証.pdf</a></span><br>
+        <span>認定証会</span>
+        <span><a href="https://ma.educo-j.or.jp/h/EID900026182/42k4tara25" target="_blank">認定証会</a></span><br>
+    </div>
+
+    <h2 id="id_ossdbsilver">OSS-DB Silver</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>OSS-DB Silver</span><br>
+        <span>社内ランク</span>
+        <span>C</span><br>
+        <span>提供団体</span>
+        <span>LPI</span><br>
+        <span>取得日</span>
+        <span>2023-07-15</span><br>
+        <span>期限日</span>
+        <span>2028-07-15</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://oss-db.jp/outline/silver/v2" target="_blank">
+                https://oss-db.jp/outline/silver/v2
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/OSS-DB Silver/認定証.pdf" target="_blank">認定証.pdf</a></span><br>
+        <span>認定証会</span>
+        <span><a href="https://ma.educo-j.or.jp/d/EID900026182/ey6ep9zlxq" target="_blank">認定証会</a></span><br>
+    </div>
+
+    <h2 id="id_py3basic">Python 3 エンジニア認定基礎試験</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>Python 3 エンジニア認定基礎試験</span><br>
+        <span>社内ランク</span>
+        <span>D</span><br>
+        <span>提供団体</span>
+        <span>一般社団法人Pythonエンジニア育成推進協会</span><br>
+        <span>取得日</span>
+        <span>2022-03-26</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://cbt.odyssey-com.co.jp/pythonic-exam/python3basic.html" target="_blank">
+                https://cbt.odyssey-com.co.jp/pythonic-exam/python3basic.html
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/Python 3 エンジニア認定基礎試験/認定証.pdf" target="_blank">認定証.pdf</a></span><br>
+    </div>
+
+    <h2 id="id_py3data">Python 3 エンジニア認定データ分析試験</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>Python 3 エンジニア認定データ分析試験</span><br>
+        <span>社内ランク</span>
+        <span>D</span><br>
+        <span>提供団体</span>
+        <span>一般社団法人Pythonエンジニア育成推進協会</span><br>
+        <span>取得日</span>
+        <span>2023-06-17</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://cbt.odyssey-com.co.jp/pythonic-exam/python3cda.html" target="_blank">
+                https://cbt.odyssey-com.co.jp/pythonic-exam/python3cda.html
+            </a>
+        </span><br>
+        <span>認定証</span>
+        <span><a href="info/Python 3 エンジニア認定データ分析試験/認定証.pdf" target="_blank">認定証.pdf</a></span><br>
+    </div>
+
+    <h2 id="id_gcpace">Google Certification Associate Cloud Engineer</h2>
+    <div class="qualification-info">
+        <span>資格名</span>
+        <span>Google Certification Associate Cloud Engineer</span><br>
+        <span>社内ランク</span>
+        <span>C</span><br>
+        <span>提供団体</span>
+        <span>Google</span><br>
+        <span>取得日</span>
+        <span>2023-02-13</span><br>
+        <span>期限日</span>
+        <span>2026-02-13</span><br>
+        <span>URL</span>
+        <span>
+            <a href="https://cloud.google.com/certification/cloud-engineer?hl=ja" target="_blank">
+                https://cloud.google.com/certification/cloud-engineer?hl=ja
+            </a>
+        </span><br>
+        <span>認定ページ</span>
+        <span><a href="https://www.credential.net/d6e711c7-bc97-45dc-8b00-502de025dee6?key=24d33d1f6c82f96c3c7910833a1883e4a3de82b7a8f18755a1550c026911b930"
+            target="_blank">認定ページ</a></span><br>
+    </div>
+
+    <script type="text/javascript" src="asset/jquery.js"></script>
+    <script type="text/javascript" src="asset/datatables.js"></script>
+    <script type="text/javascript" src="asset/script.js"></script>
+</body>
+
+</html>
