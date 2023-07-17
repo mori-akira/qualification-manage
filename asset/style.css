@@ -1,5 +1,6 @@
 body {
-    width: 1090px;
+    min-width: 540px;
+    max-width: 1064px;
     margin: 1rem;
 }
 
@@ -113,7 +114,7 @@ table.list td:nth-of-type(6) {
 }
 
 .qualification-info>span:nth-of-type(2n) {
-    width: 70%;
+    width: 65%;
     margin-left: .2rem;
     background-color: #eeeeee;
 }
