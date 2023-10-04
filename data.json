@@ -1,0 +1,461 @@
+[
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "ITパスポート"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "IP"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2019-06-14"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www3.jitec.ipa.go.jp/JitesCbt/index.html"
+        },
+        {
+            "type": "anchor-label",
+            "label": "合格証書",
+            "value": "./info/ITパスポート/合格証書.pdf"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "基本情報技術者試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "FE"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2019-11-20"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/fe.html"
+        },
+        {
+            "type": "anchor-label",
+            "label": "合格証書",
+            "value": "./info/基本情報技術者試験/合格証書.pdf"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "G検定（ジェネラリスト検定）"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "JDLA"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2023-09-09"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.jdla.org/certificate/general/"
+        },
+        {
+            "type": "anchor-label",
+            "label": "合格証",
+            "value": "./info/G検定（ジェネラリスト検定）/合格証.pdf"
+        },
+        {
+            "type": "anchor-label",
+            "label": "合格認証ロゴ",
+            "value": "./info/G検定（ジェネラリスト検定）/general2023_4_regular.png"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "ORACLE MASTER Bronze Oracle Database 12c"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Oracle"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2021-06-27"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://education.oracle.com/ja/oracle-master-bronze-oracle-database-12c/trackp_284"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/ORACLE MASTER Bronze Oracle Database 12c/認定証.pdf"
+        },
+        {
+            "type": "anchor-row",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/5887fc5a-5cbd-42ad-b956-5bdf6e8e3c94"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Oracle Certified Java Programmer, Silver SE 8"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Oracle"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2019-11-12"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://education.oracle.com/ja/oracle-certified-java-programmer-silver-se-8-oracle-certified-associate-java-se-8-programmer/trackp_363"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/Oracle Certified Java Programmer, Silver SE 8/認定書.pdf"
+        },
+        {
+            "type": "anchor-row",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/ea4f1dea-f323-4659-8356-f65a4c03461f"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Oracle Certified Java Programmer, Gold SE 8"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Oracle"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2019-12-23"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://education.oracle.com/ja/oracle-certified-java-programmer-gold-se-8-oracle-certified-professional-java-se-8-programmer/trackp_367"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/Oracle Certified Java Programmer, Gold SE 8/認定書.pdf"
+        },
+        {
+            "type": "anchor-row",
+            "label": "バッジ",
+            "value": "https://www.credly.com/badges/f528e945-5a59-4b29-92a2-8712bf139b58"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "HTML5プロフェッショナル認定 レベル1"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "HTML5(CSS3) レベル1"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2021-10-16"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2026-10-16"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://html5exam.jp/outline/lv1.html"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/HTML5プロフェッショナル認定 レベル1/認定証.pdf"
+        },
+        {
+            "type": "anchor-row",
+            "label": "認定照会",
+            "value": "https://ma.educo-j.or.jp/h/EID900026182/42k4tara25"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "HTML5プロフェッショナル認定 レベル2"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "HTML5(CSS3) レベル2"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2021-11-15"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2026-11-15"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://html5exam.jp/outline/lv2.html"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/HTML5プロフェッショナル認定 レベル2/認定証.pdf"
+        },
+        {
+            "type": "anchor-row",
+            "label": "認定照会",
+            "value": "https://ma.educo-j.or.jp/h/EID900026182/42k4tara25"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "OSS-DB Silver"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2023-07-15"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2028-07-15"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://oss-db.jp/outline/silver/v2"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/OSS-DB Silver/認定証.pdf"
+        },
+        {
+            "type": "anchor-row",
+            "label": "認定照会",
+            "value": "https://ma.educo-j.or.jp/d/EID900026182/ey6ep9zlxq"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Python 3 エンジニア認定基礎試験"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "一般社団法人Pythonエンジニア育成推進協会"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2022-03-26"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cbt.odyssey-com.co.jp/pythonic-exam/python3basic.html"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/Python 3 エンジニア認定基礎試験/認定証.pdf"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Python 3 エンジニア認定データ分析試験"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "一般社団法人Pythonエンジニア育成推進協会"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2023-06-17"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cbt.odyssey-com.co.jp/pythonic-exam/python3cda.html"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/Python 3 エンジニア認定データ分析試験/認定証.pdf"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Google Certification Associate Cloud Engineer"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Google"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2023-02-13"
+        },
+        {
+            "type": "text",
+            "label": "期限日",
+            "value": "2026-02-13"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cloud.google.com/certification/cloud-engineer?hl=ja"
+        },
+        {
+            "type": "anchor-row",
+            "label": "認定ページ",
+            "value": "https://www.credential.net/d6e711c7-bc97-45dc-8b00-502de025dee6?key=24d33d1f6c82f96c3c7910833a1883e4a3de82b7a8f18755a1550c026911b930"
+        }
+    ]
+]
