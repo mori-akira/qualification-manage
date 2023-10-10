@@ -101,8 +101,8 @@
         },
         {
             "type": "anchor-label",
-            "label": "合格証",
-            "value": "./info/G検定（ジェネラリスト検定）/合格証.pdf"
+            "label": "合格証書",
+            "value": "./info/G検定（ジェネラリスト検定）/合格証書.pdf"
         },
         {
             "type": "anchor-label",
