@@ -77,43 +77,6 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "G検定（ジェネラリスト検定）"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "D"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "JDLA"
-        },
-        {
-            "type": "text",
-            "label": "取得日",
-            "value": "2023-09-09"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://www.jdla.org/certificate/general/"
-        },
-        {
-            "type": "anchor-label",
-            "label": "合格証書",
-            "value": "./info/G検定（ジェネラリスト検定）/合格証書.pdf"
-        },
-        {
-            "type": "anchor-label",
-            "label": "合格認証ロゴ",
-            "value": "./info/G検定（ジェネラリスト検定）/general2023_4_regular.png"
-        }
-    ],
-    [
-        {
-            "type": "text",
-            "label": "資格名",
             "value": "ORACLE MASTER Bronze Oracle Database 12c"
         },
         {
@@ -456,6 +419,43 @@
             "type": "anchor-row",
             "label": "認定ページ",
             "value": "https://www.credential.net/d6e711c7-bc97-45dc-8b00-502de025dee6?key=24d33d1f6c82f96c3c7910833a1883e4a3de82b7a8f18755a1550c026911b930"
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "G検定（ジェネラリスト検定）"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "JDLA"
+        },
+        {
+            "type": "text",
+            "label": "取得日",
+            "value": "2023-09-09"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.jdla.org/certificate/general/"
+        },
+        {
+            "type": "anchor-label",
+            "label": "合格証書",
+            "value": "./info/G検定（ジェネラリスト検定）/合格証書.pdf"
+        },
+        {
+            "type": "anchor-label",
+            "label": "合格認証ロゴ",
+            "value": "./info/G検定（ジェネラリスト検定）/general2023_4_regular.png"
         }
     ]
 ]
