@@ -319,7 +319,7 @@
         {
             "type": "text",
             "label": "資格名",
-            "value": "OSS-DB Silver"
+            "value": "OSS-DB Silver Ver.2.0"
         },
         {
             "type": "text",
@@ -349,7 +349,7 @@
         {
             "type": "anchor-label",
             "label": "認定証",
-            "value": "./info/OSS-DB Silver/認定証.pdf"
+            "value": "./info/OSS-DB Silver Ver.2.0/認定証.pdf"
         },
         {
             "type": "anchor-row",
