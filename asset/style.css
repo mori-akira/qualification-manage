@@ -106,6 +106,7 @@ table.list td:nth-of-type(6) {
     display: inline-block;
     margin-top: .2rem;
     padding: .5rem 1rem;
+    box-sizing: border-box;
 }
 
 .qualification-info>span:nth-of-type(2n+1) {
@@ -116,7 +117,7 @@ table.list td:nth-of-type(6) {
 }
 
 .qualification-info>span:nth-of-type(2n) {
-    width: 65%;
+    width: calc(80% - .2rem);
     margin-left: .2rem;
     background-color: #eeeeee;
 }
