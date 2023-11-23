@@ -62,6 +62,11 @@ table.list td {
     padding: 0 .5rem;
 }
 
+table.list tr.expired td:nth-of-type(n+2) {
+    color: #F33;
+    text-decoration: line-through;
+}
+
 table.list tr:hover td {
     background-color: #efe;
     cursor: pointer;
@@ -95,6 +100,11 @@ table.list td:nth-of-type(5) {
 table.list td:nth-of-type(6) {
     width: 12%;
     text-align: center;
+}
+
+a.page-link {
+    font-size: 1.2rem;
+    font-weight: bolder;
 }
 
 .qualification-info {

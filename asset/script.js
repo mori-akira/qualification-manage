@@ -3,21 +3,43 @@ const titleFactor = '資格名';
 
 $(async () => {
     const response = await fetch('./data.json');
-    const data = await response.json();
+    let data = await response.json();
+    const targets = $('meta[name="target"]').attr('content').split(',');
 
     const infoTable = $('#info-table').children('tbody');
     const infoList = $('#info-list');
 
-    data.forEach((e, i) => {
-        const tr = $(`<tr data-target=${"id_" + i}><td>${i + 1}</td></tr>`);
+    let index = 1;
+    data.forEach((e, _) => {
+        const type = e.filter(f => 'type' === f.type)[0].value;
+        if (!targets.includes(type)) {
+            return;
+        }
+
+        let expired = false;
+        if (e.filter(f => '期限日' === f.label)[0]) {
+            const expiredDate = e.filter(f => '期限日' === f.label)[0].value;
+            const today = new Date().toLocaleDateString('sv-SE');
+            if (today > expiredDate) {
+                expired = true;
+            }
+        }
+
+        const tr = $(`<tr data-target=${"id_" + index}><td>${index}</td></tr>`);
+        if (expired) {
+            tr.addClass('expired');
+        }
         headers.forEach(f => {
             tr.append($(`<td>${e.filter(g => f === g.label)[0]?.value ?? '-'}</td>`));
         });
         infoTable.append(tr);
 
-        infoList.append($(`<h2 id=${"id_" + i}>${e.filter(f => titleFactor === f.label)[0]?.value ?? '-'}</h2>`));
+        infoList.append($(`<h2 id=${"id_" + index}>${e.filter(f => titleFactor === f.label)[0]?.value ?? '-'}</h2>`));
         const div = $('<div class="qualification-info"></div>')
         e.forEach(f => {
+            if ('type' === f.type) {
+                return;
+            }
             div.append($(`<span>${f.label}</span>`));
             switch (f.type) {
                 case 'text':
@@ -35,6 +57,7 @@ $(async () => {
             }
         });
         infoList.append(div);
+        index++;
     });
 
     // 一覧アイテム押下時のスクロール

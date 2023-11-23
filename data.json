@@ -1,6 +1,36 @@
 [
     [
         {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "TOIEC (800)"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "一般財団法人 国際ビジネスコミュニケーション協会"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.iibc-global.org/toeic.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
+        {
             "type": "text",
             "label": "資格名",
             "value": "ITパスポート"
@@ -37,6 +67,41 @@
         }
     ],
     [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "情報セキュリティマネジメント試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "SG"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/sg/index.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
         {
             "type": "text",
             "label": "資格名",
@@ -75,9 +140,230 @@
     ],
     [
         {
+            "type": "type",
+            "value": "planning"
+        },
+        {
             "type": "text",
             "label": "資格名",
-            "value": "G検定（ジェネラリスト検定）"
+            "value": "応用情報技術者試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "AP"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/ap.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "ITストラテジスト試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "ST"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "A"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/st.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "システムアーキテクト試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "SA"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "A"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/sa.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "ネットワークスペシャリスト試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "NW"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "A"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/nw.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "データベーススペシャリスト試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "DB"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "A"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/db.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "エンベデッドシステムスペシャリスト試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "ES"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "A"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/es.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "情報処理安全確保支援士試験"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "SC"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "A"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "IPA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.ipa.go.jp/shiken/kubun/sc.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "G検定"
         },
         {
             "type": "text",
@@ -111,6 +397,166 @@
         }
     ],
     [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "E資格"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "A"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "JDLA"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.jdla.org/certificate/engineer/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "UMTP認定試験 L1: UML2.0ベース"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "UMTP"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://umtp-japan.org/about_exam/exam_gaiyo/l1"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "UMTP認定試験 L2: UML2.0ベース"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "UMTP"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://umtp-japan.org/about_exam/exam_gaiyo/l2"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "JSTQB認定テスト技術者資格試験 Foundation Level"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "JSTQB"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://jstqb.jp/index.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "JSTQB認定テスト技術者資格試験 Advanced Level（テストアナリスト）"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "JSTQB"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://jstqb.jp/index.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "JSTQB認定テスト技術者資格試験 Advanced Level（テストマネージャ）"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "C"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "JSTQB"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://jstqb.jp/index.html"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
         {
             "type": "text",
             "label": "資格名",
@@ -149,6 +595,10 @@
     ],
     [
         {
+            "type": "type",
+            "value": "having"
+        },
+        {
             "type": "text",
             "label": "資格名",
             "value": "Oracle Certified Java Programmer, Silver SE 8"
@@ -186,6 +636,10 @@
     ],
     [
         {
+            "type": "type",
+            "value": "having"
+        },
+        {
             "type": "text",
             "label": "資格名",
             "value": "Oracle Certified Java Programmer, Gold SE 8"
@@ -222,6 +676,62 @@
         }
     ],
     [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "LinuCレベル1 Version10.0"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI-Japan"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://linuc.org/linuc1/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "LinuCレベル2 Version10.0"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI-Japan"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://linuc.org/linuc2/"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
         {
             "type": "text",
             "label": "資格名",
@@ -270,6 +780,10 @@
     ],
     [
         {
+            "type": "type",
+            "value": "having"
+        },
+        {
             "type": "text",
             "label": "資格名",
             "value": "HTML5プロフェッショナル認定 レベル2"
@@ -317,6 +831,10 @@
     ],
     [
         {
+            "type": "type",
+            "value": "having"
+        },
+        {
             "type": "text",
             "label": "資格名",
             "value": "OSS-DB Silver Ver.2.0"
@@ -359,6 +877,129 @@
     ],
     [
         {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "OSS-DB Gold Ver.3.0"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI-Japan"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://oss-db.jp/outline/gold"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "認定Kubernetes管理者"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "CKA-JP"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI-Japan"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://lpi.or.jp/k8s/#CKA"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "認定Kubernetesクラウドネイティブアソシエイト"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "KCNA-JP"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI-Japan"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://lpi.or.jp/k8s/#KCNA"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "認定Kubernetesアプリケーション開発者"
+        },
+        {
+            "type": "text",
+            "label": "略称",
+            "value": "CKAD-JP"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "LPI-Japan"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://lpi.or.jp/k8s/#CKAD"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
+        {
             "type": "text",
             "label": "資格名",
             "value": "Python 3 エンジニア認定基礎試験"
@@ -391,6 +1032,10 @@
     ],
     [
         {
+            "type": "type",
+            "value": "having"
+        },
+        {
             "type": "text",
             "label": "資格名",
             "value": "Python 3 エンジニア認定データ分析試験"
@@ -422,6 +1067,88 @@
         }
     ],
     [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Python 3 エンジニア認定実践試験"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "一般社団法人Pythonエンジニア育成推進協会"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.pythonic-exam.com/exam/jissen"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "planning"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "PHP8初級試験"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "D"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "PHP技術者認定機構"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.phpexam.jp/summary/novice8"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "PHP8上級試験"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "PHP技術者認定機構"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://www.phpexam.jp/summary/expert8"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "having"
+        },
         {
             "type": "text",
             "label": "資格名",
@@ -456,6 +1183,84 @@
             "type": "anchor-row",
             "label": "認定ページ",
             "value": "https://www.credential.net/d6e711c7-bc97-45dc-8b00-502de025dee6?key=24d33d1f6c82f96c3c7910833a1883e4a3de82b7a8f18755a1550c026911b930"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Google Certification Professional Cloud Architect"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Google"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cloud.google.com/learn/certification/cloud-architect?hl=ja"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Google Certification Professional Cloud Developer"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Google"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cloud.google.com/learn/certification/cloud-developer?hl=ja"
+        }
+    ],
+    [
+        {
+            "type": "type",
+            "value": "dream"
+        },
+        {
+            "type": "text",
+            "label": "資格名",
+            "value": "Google Certification Professional Data Engineer"
+        },
+        {
+            "type": "text",
+            "label": "社内ランク",
+            "value": "B"
+        },
+        {
+            "type": "text",
+            "label": "提供団体",
+            "value": "Google"
+        },
+        {
+            "type": "anchor-row",
+            "label": "URL",
+            "value": "https://cloud.google.com/learn/certification/data-engineer?hl=ja"
         }
     ]
 ]
