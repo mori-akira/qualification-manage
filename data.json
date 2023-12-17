@@ -1069,7 +1069,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -1087,9 +1087,19 @@
             "value": "一般社団法人Pythonエンジニア育成推進協会"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2023-12-17"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://www.pythonic-exam.com/exam/jissen"
+        },
+        {
+            "type": "anchor-label",
+            "label": "認定証",
+            "value": "./info/Python 3 エンジニア認定実践試験/認定証.pdf"
         }
     ],
     [
