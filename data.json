@@ -141,7 +141,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -164,9 +164,19 @@
             "value": "IPA"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2023-12-21"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://www.ipa.go.jp/shiken/kubun/ap.html"
+        },
+        {
+            "type": "anchor-label",
+            "label": "合格証書",
+            "value": "./info/応用情報技術者試験/合格証書.pdf"
         }
     ],
     [
