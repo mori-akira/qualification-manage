@@ -1236,7 +1236,7 @@
             "value": "https://cloud.google.com/certification/cloud-engineer?hl=ja"
         },
         {
-            "type": "anchor-row",
+            "type": "anchor-label",
             "label": "認定ページ",
             "value": "https://www.credential.net/d6e711c7-bc97-45dc-8b00-502de025dee6?key=24d33d1f6c82f96c3c7910833a1883e4a3de82b7a8f18755a1550c026911b930"
         }
