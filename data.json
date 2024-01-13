@@ -1133,6 +1133,11 @@
             "value": "PHP技術者認定機構"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-01-13"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://www.phpexam.jp/summary/novice8"
