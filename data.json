@@ -63,7 +63,7 @@
         {
             "type": "anchor-auth",
             "label": "合格証書",
-            "value": "/info/ITパスポート/合格証書.pdf"
+            "value": "./info/ITパスポート/合格証書.pdf"
         }
     ],
     [
@@ -135,7 +135,7 @@
         {
             "type": "anchor-auth",
             "label": "合格証書",
-            "value": "/info/基本情報技術者試験/合格証書.pdf"
+            "value": "./info/基本情報技術者試験/合格証書.pdf"
         }
     ],
     [
@@ -176,7 +176,7 @@
         {
             "type": "anchor-auth",
             "label": "合格証書",
-            "value": "/info/応用情報技術者試験/合格証書.pdf"
+            "value": "./info/応用情報技術者試験/合格証書.pdf"
         }
     ],
     [
@@ -398,12 +398,12 @@
         {
             "type": "anchor-auth",
             "label": "合格証書",
-            "value": "/info/G検定（ジェネラリスト検定）/合格証書.pdf"
+            "value": "./info/G検定（ジェネラリスト検定）/合格証書.pdf"
         },
         {
             "type": "anchor-label",
             "label": "合格認証ロゴ",
-            "value": "/info/G検定（ジェネラリスト検定）/general2023_4_regular.png"
+            "value": "./info/G検定（ジェネラリスト検定）/general2023_4_regular.png"
         }
     ],
     [
@@ -595,7 +595,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/ORACLE MASTER Bronze Oracle Database 12c/認定証.pdf"
+            "value": "./info/ORACLE MASTER Bronze Oracle Database 12c/認定証.pdf"
         },
         {
             "type": "anchor-row",
@@ -636,7 +636,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/Oracle Certified Java Programmer, Silver SE 8/認定書.pdf"
+            "value": "./info/Oracle Certified Java Programmer, Silver SE 8/認定書.pdf"
         },
         {
             "type": "anchor-row",
@@ -677,7 +677,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/Oracle Certified Java Programmer, Gold SE 8/認定書.pdf"
+            "value": "./info/Oracle Certified Java Programmer, Gold SE 8/認定書.pdf"
         },
         {
             "type": "anchor-row",
@@ -780,7 +780,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/HTML5プロフェッショナル認定 レベル1/認定証.pdf"
+            "value": "./info/HTML5プロフェッショナル認定 レベル1/認定証.pdf"
         },
         {
             "type": "anchor-row",
@@ -831,7 +831,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/HTML5プロフェッショナル認定 レベル2/認定証.pdf"
+            "value": "./info/HTML5プロフェッショナル認定 レベル2/認定証.pdf"
         },
         {
             "type": "anchor-row",
@@ -877,7 +877,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/OSS-DB Silver Ver.2.0/認定証.pdf"
+            "value": "./info/OSS-DB Silver Ver.2.0/認定証.pdf"
         },
         {
             "type": "anchor-row",
@@ -1037,7 +1037,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/Python 3 エンジニア認定基礎試験/認定証.pdf"
+            "value": "./info/Python 3 エンジニア認定基礎試験/認定証.pdf"
         }
     ],
     [
@@ -1073,7 +1073,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/Python 3 エンジニア認定データ分析試験/認定証.pdf"
+            "value": "./info/Python 3 エンジニア認定データ分析試験/認定証.pdf"
         }
     ],
     [
@@ -1109,7 +1109,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/Python 3 エンジニア認定実践試験/認定証.pdf"
+            "value": "./info/Python 3 エンジニア認定実践試験/認定証.pdf"
         }
     ],
     [
@@ -1145,7 +1145,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "/info/PHP8技術者認定初級試験/スコア.pdf"
+            "value": "./info/PHP8技術者認定初級試験/スコア.pdf"
         }
     ],
     [
