@@ -51,6 +51,10 @@ $(async () => {
                 case 'anchor-label':
                     div.append($(`<span><a href="${f.value}" target="_blank">${f.label}</a></span><br>`));
                     break;
+                case 'anchor-auth':
+                    const target = btoa(encodeURIComponent(f.value));
+                    div.append($(`<span><a href="/auth.html?target=${target}" target="_blank">${f.label}</a></span><br>`));
+                    break;
                 default:
                     div.append($(`<span>${f.value}</span><br>`));
                     break;
