@@ -3,7 +3,7 @@ const titleFactor = '資格名';
 
 $(async () => {
     const response = await fetch('./data.json');
-    let data = await response.json();
+    const data = await response.json();
     const targets = $('meta[name="target"]').attr('content').split(',');
 
     const infoTable = $('#info-table').children('tbody');

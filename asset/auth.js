@@ -1,18 +1,5 @@
 const PASS = 'UEBzc3cwcmQ=';
 
-const moveTarget = () => {
-    const match = location.search.match(/\?target=(.+)/);
-    if (!match || match.length < 2) {
-        location.assign('/index.html');
-    }
-    try {
-        const target = atob(match[1]);
-        location.assign(target);
-    } catch (ex) {
-        location.assign('/index.html');
-    }
-};
-
 $(() => {
     const pass = $('#password');
     const msg = $('#passMessage');
@@ -45,7 +32,16 @@ $(() => {
             return;
         }
         if (btoa(pass.val()) === PASS) {
-            moveTarget();
+            const match = location.search.match(/\?target=(.+)/);
+            if (!match || match.length < 2) {
+                location.assign('/index.html');
+            }
+            try {
+                const target = atob(match[1]);
+                location.assign(target);
+            } catch (ex) {
+                location.assign('/index.html');
+            }
         } else {
             pass.addClass('error');
             pass.val('');
