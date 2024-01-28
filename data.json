@@ -316,37 +316,6 @@
     [
         {
             "type": "type",
-            "value": "dream"
-        },
-        {
-            "type": "text",
-            "label": "資格名",
-            "value": "エンベデッドシステムスペシャリスト試験"
-        },
-        {
-            "type": "text",
-            "label": "略称",
-            "value": "ES"
-        },
-        {
-            "type": "text",
-            "label": "社内ランク",
-            "value": "A"
-        },
-        {
-            "type": "text",
-            "label": "提供団体",
-            "value": "IPA"
-        },
-        {
-            "type": "anchor-row",
-            "label": "URL",
-            "value": "https://www.ipa.go.jp/shiken/kubun/es.html"
-        }
-    ],
-    [
-        {
-            "type": "type",
             "value": "planning"
         },
         {
