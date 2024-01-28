@@ -69,7 +69,7 @@
     [
         {
             "type": "type",
-            "value": "planning"
+            "value": "having"
         },
         {
             "type": "text",
@@ -92,9 +92,19 @@
             "value": "IPA"
         },
         {
+            "type": "text",
+            "label": "取得日",
+            "value": "2024-01-28"
+        },
+        {
             "type": "anchor-row",
             "label": "URL",
             "value": "https://www.ipa.go.jp/shiken/kubun/sg/index.html"
+        },
+        {
+            "type": "anchor-auth",
+            "label": "合格証書",
+            "value": "./info/情報セキュリティマネジメント試験/スコア.pdf"
         }
     ],
     [
