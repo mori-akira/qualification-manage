@@ -1124,7 +1124,7 @@
         {
             "type": "anchor-auth",
             "label": "認定証",
-            "value": "./info/PHP8技術者認定初級試験/スコア.pdf"
+            "value": "./info/PHP8技術者認定初級試験/認定証.pdf"
         }
     ],
     [
